@@ -1,0 +1,233 @@
+/* Quiet Path Living - Heirloom Stitch Monogram & Mindful Home Decor Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+:root {
+  --color-espresso-900: #1E1815;
+  --color-espresso-800: #2A221E;
+  --color-espresso-700: #3C302A;
+  --color-espresso-600: #4E4039;
+  --color-espresso-500: #6D5C52;
+  --color-warm-cream: #FAF7F2;
+  --color-ivory: #FFFDF9;
+  --color-linen-light: #F4EFE6;
+  --color-linen-border: #E3DAC9;
+  --color-stitch: #B59E87;
+  --color-wax-seal: #8C4830;
+  --color-wax-seal-dark: #6D3421;
+  --color-sage: #75816F;
+  --color-sage-soft: #EEF1EB;
+}
+
+/* Base resets & typography */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--color-espresso-800);
+  background-color: var(--color-warm-cream);
+  background-image: 
+    radial-gradient(var(--color-linen-border) 0.75px, transparent 0.75px), 
+    radial-gradient(var(--color-linen-border) 0.75px, var(--color-warm-cream) 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-serif-roman {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Subtle Linen Texture Overlay */
+.linen-bg {
+  background-color: #FDFBF7;
+  background-image: 
+    linear-gradient(rgba(227, 218, 201, 0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(227, 218, 201, 0.2) 1px, transparent 1px);
+  background-size: 8px 8px;
+}
+
+.linen-card {
+  background-color: #FFFDF9;
+  background-image: 
+    linear-gradient(rgba(215, 204, 185, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(215, 204, 185, 0.15) 1px, transparent 1px);
+  background-size: 6px 6px;
+}
+
+/* Heirloom Stitch Borders & Accents */
+.border-stitch {
+  border: 1.5px dashed var(--color-stitch);
+}
+
+.border-stitch-fine {
+  border: 1px dashed rgba(181, 158, 135, 0.6);
+}
+
+.border-stitch-double {
+  border: 1px solid var(--color-linen-border);
+  position: relative;
+}
+.border-stitch-double::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px dashed var(--color-stitch);
+  pointer-events: none;
+}
+
+.stitch-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.stitch-divider::before,
+.stitch-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1.5px dashed var(--color-stitch);
+}
+.stitch-divider:not(:empty)::before {
+  margin-right: 1rem;
+}
+.stitch-divider:not(:empty)::after {
+  margin-left: 1rem;
+}
+
+/* Deckled / Handcrafted Paper Edge Effect */
+.deckled-edge {
+  box-shadow: 
+    0 1px 3px rgba(42, 34, 30, 0.05),
+    0 10px 25px -5px rgba(42, 34, 30, 0.08),
+    0 0 0 1px rgba(227, 218, 201, 0.8);
+  position: relative;
+}
+
+.deckled-edge-heavy {
+  box-shadow: 
+    0 4px 6px -1px rgba(42, 34, 30, 0.07),
+    0 20px 35px -10px rgba(42, 34, 30, 0.12),
+    0 0 0 1px rgba(227, 218, 201, 0.9);
+}
+
+/* Wax Seal Style Badge */
+.wax-seal {
+  background: radial-gradient(circle at 35% 30%, #A45238, #803D27 60%, #5E2A19 100%);
+  box-shadow: 
+    0 4px 10px rgba(94, 42, 25, 0.35),
+    inset 0 2px 3px rgba(255, 255, 255, 0.25),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.4);
+  color: #F8EFEA;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.wax-seal::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border: 1px dashed rgba(248, 239, 234, 0.4);
+  border-radius: 9999px;
+  pointer-events: none;
+}
+
+/* Ribbon Button */
+.btn-heirloom {
+  background-color: var(--color-espresso-800);
+  color: #FAF7F2;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+.btn-heirloom:hover {
+  background-color: var(--color-espresso-900);
+  transform: translateY(-1.5px);
+  box-shadow: 0 8px 20px -4px rgba(42, 34, 30, 0.25);
+}
+.btn-heirloom:active {
+  transform: translateY(0);
+}
+
+.btn-heirloom-outline {
+  background-color: transparent;
+  color: var(--color-espresso-800);
+  border: 1.5px solid var(--color-espresso-800);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-heirloom-outline:hover {
+  background-color: var(--color-espresso-800);
+  color: #FAF7F2;
+  transform: translateY(-1.5px);
+  box-shadow: 0 8px 20px -4px rgba(42, 34, 30, 0.15);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-warm-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-stitch);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-espresso-600);
+}
+
+/* Gentle Paper Card Hover */
+.product-card {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+}
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px -8px rgba(42, 34, 30, 0.12), 0 0 0 1px rgba(181, 158, 135, 0.4);
+}
+
+/* Affirmation Card Flipper */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.card-flipper {
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+.card-flipped {
+  transform: rotateY(180deg);
+}
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Subtle Floating Animation */
+@keyframes slow-breathe {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-4px) rotate(0.4deg); }
+}
+.animate-breathe {
+  animation: slow-breathe 6s ease-in-out infinite;
+}
+
+/* Focus styles for accessibility */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--color-espresso-800);
+  outline-offset: 2px;
+}
