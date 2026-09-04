@@ -72,13 +72,13 @@ const productsData = [
   {
     id: 't2',
     category: 'tabletop',
-    title: 'Vintage Botanical Verse Accent Plaque',
+    title: 'Songbird Family Heirloom Watercolor Print (8x10")',
     categoryName: 'Tabletop & Vintage',
-    price: '$28.00',
-    description: 'A freestanding antique brass and glass display featuring pressed meadow florals alongside mindful hospitality words.',
-    verse: 'A joyful home is built of quiet moments and grateful hearts.',
-    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80',
-    badge: 'Artisan Decor'
+    price: '$26.00',
+    description: 'An original whimsical watercolor painting of a loving songbird family in a summer wildflower meadow. Printed on 300gsm deckle-edge cotton paper.',
+    verse: 'A joyful home is built of quiet moments, loving hands, and grateful hearts.',
+    image: 'images/vintage-bird-family.jpg',
+    badge: 'Original Art'
   },
   {
     id: 'd1',
