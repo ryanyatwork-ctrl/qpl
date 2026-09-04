@@ -17,13 +17,13 @@ const productsData = [
   {
     id: 'm1',
     category: 'morning',
-    title: 'Morning Light Linen Affirmation Tags (Set of 6)',
+    title: 'Morning Teapot & Butterfly Botanical Watercolor Print',
     categoryName: 'Morning Rituals',
-    price: '$18.00',
-    description: 'Tied with raw silk cord, these slow-morning affirmation tags are printed on 300gsm deckle-edge cotton paper. Designed to rest against your coffee mug or hang near your morning pour-over.',
+    price: '$24.00',
+    description: 'An original soft watercolor illustration of a sunlit morning teapot, delicate butterflies, and sage greenery on archival deckled paper.',
     verse: 'Breathe in grace, step gently into the morning.',
-    image: 'https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80',
-    badge: 'Bestseller'
+    image: 'images/morning-tea-watercolor.jpg',
+    badge: 'Original Art'
   },
   {
     id: 'm2',
@@ -39,35 +39,35 @@ const productsData = [
   {
     id: 'b1',
     category: 'bedside',
-    title: 'Evening Solace Poetry Print (8x10")',
+    title: 'Songbird Meadow Heirloom Linen Bedding & Pillow Set',
     categoryName: 'Bedside & Rest',
-    price: '$22.00',
-    description: 'An unhurried poem on nightfall, restful slumber, and releasing the day. Printed on tactile handmade cream cardstock with subtle gold-embossed heirloom stitch border.',
+    price: '$68.00',
+    description: 'Soft heirloom cotton-linen pillowcases and bedding featuring Annika’s hand-painted songbird family emblem and subtle neutral plaid accents.',
     verse: 'Lay down your striving; let the quiet of the night mend your soul.',
-    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80',
-    badge: 'Mindful Favorite'
+    image: 'images/songbird-linen-bedding.jpg',
+    badge: 'Heirloom Favorite'
   },
   {
     id: 'b2',
     category: 'bedside',
-    title: 'Nightstand Slumber Blessing Cards',
+    title: 'Woodland Cottage Storybook Duvet & Pillow Set',
     categoryName: 'Bedside & Rest',
-    price: '$16.00',
-    description: 'A boxed deck of 12 quiet evening verses with a miniature brass easel stand. Set one out each evening before turning down the lamps.',
+    price: '$74.00',
+    description: 'Enchanting storybook cottage illustration with gentle woodland bunnies, lambs, and evergreen pines on breathable natural cotton bedding.',
     verse: 'Peace be to this room, and grace to all who rest here.',
-    image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80',
-    badge: 'Heirloom Gift'
+    image: 'images/woodland-cottage-bedding.jpg',
+    badge: 'Artisan Bedding'
   },
   {
     id: 't1',
     category: 'tabletop',
-    title: 'Heirloom Linen Place Cards (Set of 10)',
+    title: 'Winter Forest Cabin Storybook Bedding Set',
     categoryName: 'Tabletop & Vintage',
-    price: '$20.00',
-    description: 'Featuring hand-stitched border motifs and warm espresso calligraphy. Ideal for intimate dinner parties, holiday gatherings, and memorable Sunday tables.',
-    verse: 'Gather with gratitude. There is always a place for you here.',
-    image: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80',
-    badge: 'Host Essential'
+    price: '$74.00',
+    description: 'Whimsical winter cabin watercolor print featuring snowmen, gentle pine forests, and storybook gnomes crafted for cozy mindful homes.',
+    verse: 'Warm fires, kind hands, and peace to this cherished home.',
+    image: 'images/winter-cabin-bedding.jpg',
+    badge: 'Seasonal Collection'
   },
   {
     id: 't2',
