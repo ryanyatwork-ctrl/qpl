@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initToastSystem();
 });
 
-// Product Data
+// Product Data - Authentic Annika & Quiet Path Living Catalog
 const productsData = [
   {
     id: 'm1',
@@ -22,19 +22,30 @@ const productsData = [
     price: '$24.00',
     description: 'An original soft watercolor illustration of a sunlit morning teapot, delicate butterflies, and sage greenery on archival deckled paper.',
     verse: 'Breathe in grace, step gently into the morning.',
-    image: 'images/morning-tea-watercolor.jpg',
+    image: 'images/morning-tea-butterflies-art.jpg',
     badge: 'Original Art'
   },
   {
     id: 'm2',
     category: 'morning',
-    title: 'Slow Mornings Oak Framed Verse Sign',
+    title: 'Sunlit Morning Tea & Sage Greenery Art Print',
     categoryName: 'Morning Rituals',
-    price: '$34.00',
-    description: 'A handcrafted solid oak wood frame with archival museum glass encasing our signature slow-morning verse. Designed for kitchen ledges, coffee bars, and breakfast nooks.',
+    price: '$24.00',
+    description: 'A delicate botanical watercolor celebrating quiet morning teas, gentle floral sprigs, and mindful table moments.',
     verse: 'May this table hold laughter, warm cups, and quiet peace.',
-    image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80',
+    image: 'images/whimsical-teapot-art.jpg',
     badge: 'Handcrafted'
+  },
+  {
+    id: 'm3',
+    category: 'morning',
+    title: 'Morning Ritual Teapot & Breakfast Staging Suite',
+    categoryName: 'Morning Rituals',
+    price: '$38.00',
+    description: 'Artisan styled print and linen pairing designed to grace your morning coffee bar, breakfast nook, or kitchen counter.',
+    verse: 'Good things take root in quiet soil. Tend your hours with gentle hands.',
+    image: 'images/morning-ritual-tea-staging.jpg',
+    badge: 'Best Seller'
   },
   {
     id: 'b1',
@@ -55,22 +66,55 @@ const productsData = [
     price: '$74.00',
     description: 'Enchanting storybook cottage illustration with gentle woodland bunnies, lambs, and evergreen pines on breathable natural cotton bedding.',
     verse: 'Peace be to this room, and grace to all who rest here.',
-    image: 'images/woodland-cottage-bedding.jpg',
+    image: 'images/woodland-story-bedding.jpg',
     badge: 'Artisan Bedding'
+  },
+  {
+    id: 'b3',
+    category: 'bedside',
+    title: 'Winter Sanctuary Storybook Cabin Bedding Suite',
+    categoryName: 'Bedside & Rest',
+    price: '$78.00',
+    description: 'Whimsical winter cabin watercolor print featuring snowmen, gentle pine forests, and storybook gnomes crafted for cozy mindful homes.',
+    verse: 'Warm fires, kind hands, and peace to this cherished home.',
+    image: 'images/winter-sanctuary-duvet.jpg',
+    badge: 'Seasonal Collection'
+  },
+  {
+    id: 'b4',
+    category: 'bedside',
+    title: 'Meadow Songbird Flanged Pillowcase & Linen Bedding',
+    categoryName: 'Bedside & Rest',
+    price: '$42.00',
+    description: 'Custom flanged cotton-linen pillowcase featuring Annika’s hand-drawn songbird and meadow flora design.',
+    verse: 'Rest your head in stillness and awaken with a grateful heart.',
+    image: 'images/cottage-meadow-pillowcase.jpg',
+    badge: 'Handmade'
   },
   {
     id: 't1',
     category: 'tabletop',
-    title: 'Winter Forest Cabin Storybook Bedding Set',
+    title: 'Songbird Family Heirloom Ceramic & Wall Plate Decor',
     categoryName: 'Tabletop & Vintage',
-    price: '$74.00',
-    description: 'Whimsical winter cabin watercolor print featuring snowmen, gentle pine forests, and storybook gnomes crafted for cozy mindful homes.',
-    verse: 'Warm fires, kind hands, and peace to this cherished home.',
-    image: 'images/winter-cabin-bedding.jpg',
-    badge: 'Seasonal Collection'
+    price: '$32.00',
+    description: 'Decorative heirloom porcelain display plate featuring Annika’s original songbird family watercolor and warm bronze trim.',
+    verse: 'A joyful home is built of quiet moments, loving hands, and grateful hearts.',
+    image: 'images/songbird-vintage-plate.jpg',
+    badge: 'Signature Plate'
   },
   {
     id: 't2',
+    category: 'tabletop',
+    title: 'Storybook Cottage Cabin Quilted Coverlet',
+    categoryName: 'Tabletop & Vintage',
+    price: '$72.00',
+    description: 'Heirloom stitched quilt coverlet with rich forest tones, storybook woodland cabin imagery, and cozy comfort.',
+    verse: 'A place of warmth, quiet shelter, and gentle hospitality.',
+    image: 'images/heirloom-cabin-quilt.jpg',
+    badge: 'Heirloom Quilt'
+  },
+  {
+    id: 't3',
     category: 'tabletop',
     title: 'Songbird Family Heirloom Watercolor Print (8x10")',
     categoryName: 'Tabletop & Vintage',
@@ -83,23 +127,23 @@ const productsData = [
   {
     id: 'd1',
     category: 'digital',
-    title: 'Complete Morning & Evening Affirmation PDF Bundle',
+    title: 'Complete Morning & Evening Mindful Art Print Bundle',
     categoryName: 'Digital Studio',
-    price: '$12.00',
-    description: 'Instant download vector PDF kit with 24 high-resolution printable cards, cut guides for standard 3x5 and 5x7 cardstock, and printing tips for archival results.',
+    price: '$14.00',
+    description: 'Instant download high-resolution print files for Annika’s watercolor artwork, affirmation cards, and cut guides for standard framing.',
     verse: 'Instant access. Print at home on your favorite linen or cotton cardstock.',
-    image: 'https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80',
+    image: 'images/artisan-watercolor-print.jpg',
     badge: 'Instant Download'
   },
   {
     id: 'd2',
     category: 'digital',
-    title: 'Heirloom Table Blessing Printable Sheets',
+    title: 'Heirloom Storybook Home Printable Art Collection',
     categoryName: 'Digital Studio',
-    price: '$8.00',
-    description: 'Printable place cards, menu accents, and hospitality verses with delicate hand-drawn heirloom border designs ready for scissors or rotary cutter.',
-    verse: 'Download instantly and create a tranquil table setting in minutes.',
-    image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80',
+    price: '$12.00',
+    description: 'Printable storybook cottage art, place cards, and daily verses with delicate hand-drawn heirloom border designs ready for framing.',
+    verse: 'Download instantly and create a tranquil sanctuary in minutes.',
+    image: 'images/storybook-cottage-interior.jpg',
     badge: 'Printable PDF'
   }
 ];
