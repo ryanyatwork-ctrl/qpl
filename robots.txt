@@ -1,0 +1,5 @@
+# quietpathliving.com - all crawlers, including AI search and answer-engine bots, are welcome.
+User-agent: *
+Allow: /
+
+Sitemap: https://quietpathliving.com/sitemap.xml
