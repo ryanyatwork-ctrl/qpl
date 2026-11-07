@@ -65,12 +65,20 @@ D:\Projects\qpl\
 
 ---
 
-## 4. Master Artwork Inventory (Annika's Complete Suite)
+## 4. Master Artwork Inventory & Strict Content Rules
 
-- **Total Count**: **217 Master Artworks** in 300 DPI high resolution.
-- **File Location**: `D:\Projects\qpl\Etsy_300DPI_PNGs\`
+> **CRITICAL RULE — NO ORIGINAL HAND DRAWINGS FOR SALE**:
+> Any of Annika's actual hand drawings or sketches are the **originals** (concept sources) and must **NEVER** be included in print runs, digital downloads, or store listings. **Only the finished artwork generated from those concepts** is to be made available to print and sell.
+
+- **Raw Folder Count**: 217 files in `D:\Projects\qpl\Etsy_300DPI_PNGs\` (~1.85 GB)
 - **Catalog Manifest**: `D:\Projects\qpl\Etsy_300DPI_PNGs\manifest_300dpi.json`
 - **Visual Lookbook**: `D:\Projects\qpl\Etsy_300DPI_PNGs\Lookbook_Catalog.html`
+- **Required Triage & Pre-Flight Filtering**:
+  The 217 files in `Etsy_300DPI_PNGs/` are a mixed batch that must be filtered before listing:
+  1. **Exclude Original Drawings/Sketches**: Photos/scans of Annika's physical pencil/pen drawings (e.g., `QPL_IMG_20260904_155650_300DPI.png`, `QPL_IMG_20260904_155652_300DPI.png`) are strictly off-limits for sale.
+  2. **Exclude Non-Art Captures**: Filter out phone screenshots (e.g., `QPL_Screenshot_*`) and personal/exterior photos (e.g., `QPL_IMG_20260926_154355_300DPI.png`).
+  3. **Separate Mockups vs. Flat Print Masters**: Distinguish staged product mockups/infographics (e.g., pillow dimension graphics, staged room shots) from flat full-bleed artwork meant for Printful printing.
+  4. **Watermark Removal**: Clean any bottom-right generation sparkle watermarks from the flat print masters prior to uploading to Printful or packaging as digital downloads.
 - **Primary Aspect Ratios**:
   - Vertical / Portrait (7.6 x 15 in, 11.3 x 15 in, 10.9 x 15 in, 12.1 x 15 in)
   - Horizontal / Landscape (15 x 8.2 in, 15 x 11.3 in, 15 x 8.4 in)
