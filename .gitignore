@@ -1,0 +1,8 @@
+# Large master art files (stored locally in D:\Projects\qpl\Etsy_300DPI_PNGs)
+Etsy_300DPI_PNGs/*.png
+Etsy_300DPI_PNGs/*.jpg
+
+# System & OS
+.DS_Store
+Thumbs.db
+*.tmp

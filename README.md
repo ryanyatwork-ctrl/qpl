@@ -2,12 +2,16 @@
 
 Welcome to the official web repository for **Quiet Path Living** ([quietpathliving.com](https://quietpathliving.com)).
 
+> **Developer & AI Memory Reference**: For full system architecture, master artwork inventory details (217 300-DPI art pieces), Printful/Etsy integrations, and the profitability roadmap, see [PROJECT_MEMORY.md](file:///D:/Projects/qpl/PROJECT_MEMORY.md).
+
 ## Brand Identity & Aesthetic Overview
 - **Aesthetic**: Heirloom Stitch Monogram & Mindful Slow Living
 - **Logo**: Handcrafted interlocking `QPL` monogram with needle-punch running stitch border and wax seal medallion
 - **Color Palette**: Deep espresso brown (`#1E1815`, `#2A221E`) on warm cream (`#FAF7F2`), natural ivory (`#FFFDF9`), soft linen weave textures (`#F4EFE6`), and wax seal terracotta (`#8C4830`)
 - **Typography**: Roman serif hairline display fonts (*Cormorant Garamond*, *Playfair Display*) paired with clean geometric body text (*Plus Jakarta Sans*)
 - **Storefront Link**: [Quiet Path Living Etsy Shop](https://www.etsy.com/shop/QuietPathLiving)
+- **Fulfillment**: Printful (Pod printing & global shipping)
+- **Host**: Cloudflare Pages (GitHub auto-deploy)
 
 ---
 
