@@ -100,17 +100,18 @@ D:\Projects\qpl\
 1. **Printful Physical POD Alone Yields Thin Margins**:
    - Small physical items (single mug or 8x10 print) after Printful base cost ($10-$18) + shipping ($6-$10) + Etsy fees (6.5% transaction + 3%+$0.25 payment processing + $0.20 listing fee + 15% offsite ads) leave thin margins ($3–$6).
 2. **The 3-Pillar High-Margin Architecture**:
-   - **Pillar A: Digital Art Downloads (100% Margin)**:
-     - List all 217 pieces as instant digital downloads (single $5.99–$7.99, bundles of 3–5 for $14.99–$21.99).
+   - **Pillar A: Digital Art Downloads (STATUS: GO — 100% Margin)**:
+     - List all eligible generated artworks as instant digital downloads (single $5.99–$7.99, bundles of 3–5 for $14.99–$21.99).
      - Delivery is instant, automated, $0 COGS, 85–90% net profit.
-   - **Pillar B: High Average Order Value (AOV) Printful Items**:
-     - Focus physical fulfillment on higher-ticket items where dollar margin is \$20–\$45+:
-       - Framed Archival Matte Canvas / Stretched Canvas (18x24", 24x36"): Sell \$75–\$140.
-       - Heirloom Duvet Sets & Quilts: Sell \$85–\$160.
-       - Premium Heavyweight Flanged Pillows & Throws: Sell \$42–\$65.
-   - **Pillar C: Direct Website Sales on quietpathliving.com**:
-     - Avoid Etsy's 10–15% fee entirely for organic visitors.
-     - Convert traffic directly into email subscribers via the `QUIET15` lead magnet.
+   - **Pillar B: Full Multi-Product POD Availability (Annika's Vision)**:
+     - When a customer falls in love with an artwork, they should be able to order it on **whatever product they want** via Printful fulfillment:
+       - Framed Archival Matte Prints & Stretched Canvases
+       - Throw Pillows & Flanged Cushion Covers
+       - Duvet Covers, Quilts & Woven Blankets
+       - Ceramic Mugs, Tote Bags, Greeting Cards & Home Accents
+   - **Pillar C: Direct Website Ordering & Pinterest Visual Funnel (Target Endgame)**:
+     - Drive traffic directly to `quietpathliving.com` for ordering to avoid Etsy's 10–15% fee cut.
+     - Automatically generate lifestyle mockups and publish them to **Pinterest** with direct links back to `quietpathliving.com`.
 
 ### Systematic Rollout Roadmap:
 1. **Batch Listing Generator**:
