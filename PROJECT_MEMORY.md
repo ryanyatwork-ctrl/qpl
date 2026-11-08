@@ -26,7 +26,7 @@
 
 | Channel | URL / Details | Notes |
 | :--- | :--- | :--- |
-| **Website** | [quietpathliving.com](https://quietpathliving.com) | Hosted on **Cloudflare Pages**, static HTML5/CSS3/Vanilla JS. |
+| **Website** | [quietpathliving.com](https://quietpathliving.com) | Hosted on **Cloudflare Pages** (Production branch is **`master`**; always push `git push origin main:master` and `git push origin main`). |
 | **Etsy Storefront** | [etsy.com/shop/QuietPathLiving](https://www.etsy.com/shop/QuietPathLiving) | Primary discovery marketplace & initial sales engine. |
 | **Fulfillment Engine** | **Printful** integration | Direct-to-garment/direct-to-print POD for physical prints, canvases, pillows, bedding. |
 | **GitHub Repository**| [github.com/ryanyatwork-ctrl/qpl](https://github.com/ryanyatwork-ctrl/qpl) | Remote origin for version control & Cloudflare automatic deployments. |
