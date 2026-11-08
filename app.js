@@ -77,7 +77,7 @@ const productFormats = [
 
 // Complete 36-Item Catalog (12 Signature Curated Pieces + 24 Generated Master Artwork Suites)
 const productsData = [
-  // --- ORIGINAL 12 FEATURED SHOWCASE ITEMS ---
+  // --- 12 CURATED SIGNATURE ITEMS (100% UNIQUE, EXACTLY MATCHED TO ARTWORK) ---
   {
     id: 'm1',
     sku: 'QPL-ORIG-M1',
@@ -88,10 +88,10 @@ const productsData = [
     defaultFormat: 'PRT',
     description: 'Soft watercolor illustration of an artisan morning teapot, steaming stoneware cups, and autumn sage foliage beside a curtained arch window. Available as digital download, print, canvas, pillow, or mug.',
     verse: 'Breathe in grace, step gently into the morning.',
-    image: 'images/catalog/qpl-mor-001-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-mor-001-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-MOR-001.jpg?v=5',
-    badge: 'Signature Art'
+    image: 'images/catalog/qpl-mor-001-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-mor-001-sofa.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-MOR-001.jpg?v=6',
+    badge: 'Original Art'
   },
   {
     id: 'm2',
@@ -103,8 +103,8 @@ const productsData = [
     defaultFormat: 'PRT',
     description: 'Delicate botanical watercolor celebrating quiet morning teas, an artisan terracotta teapot, and swirling sage greenery.',
     verse: 'May this table hold laughter, warm cups, and quiet peace.',
-    image: 'images/catalog/qpl-mor-001-sage-teapot.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-mor-001-linen-staging.jpg?v=5',
+    image: 'images/catalog/qpl-mor-001-sage-teapot.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-mor-001-mockup.jpg?v=6',
     badge: 'Handcrafted'
   },
   {
@@ -117,8 +117,8 @@ const productsData = [
     defaultFormat: 'PIL',
     description: 'Artisan styled morning teapot table linens, napkins, and stoneware mug pairing designed to grace your morning coffee bar, breakfast nook, or kitchen counter.',
     verse: 'Good things take root in quiet soil. Tend your hours with gentle hands.',
-    image: 'images/catalog/qpl-mor-001-linen-staging.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-mor-003-mockup.jpg?v=5',
+    image: 'images/catalog/qpl-mor-001-linen-staging.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-mor-003-mockup.jpg?v=6',
     badge: 'Best Seller'
   },
   {
@@ -131,8 +131,8 @@ const productsData = [
     defaultFormat: 'BLK',
     description: 'Soft heirloom cotton-linen pillowcases and bedding featuring Annika’s songbird family emblem and subtle neutral plaid accents.',
     verse: 'Lay down your striving; let the quiet of the night mend your soul.',
-    image: 'images/songbird-linen-bedding.jpg?v=5',
-    mockupImage: 'images/vintage-bird-family.jpg?v=5',
+    image: 'images/songbird-linen-bedding.jpg?v=6',
+    mockupImage: 'images/vintage-bird-family.jpg?v=6',
     badge: 'Heirloom Favorite'
   },
   {
@@ -145,8 +145,8 @@ const productsData = [
     defaultFormat: 'BLK',
     description: 'Enchanting storybook cottage illustration with gentle woodland bunnies, lambs, and evergreen pines on breathable natural cotton bedding.',
     verse: 'Peace be to this room, and grace to all who rest here.',
-    image: 'images/woodland-cottage-bed-scene.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-win-013-art.jpg?v=5',
+    image: 'images/woodland-cottage-bed-scene.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-win-013-art.jpg?v=6',
     badge: 'Artisan Bedding'
   },
   {
@@ -159,9 +159,9 @@ const productsData = [
     defaultFormat: 'BLK',
     description: 'Whimsical winter cabin watercolor print featuring snowmen, gentle pine forests, and storybook cottages crafted for cozy mindful homes.',
     verse: 'Warm fires, kind hands, and peace to this cherished home.',
-    image: 'images/winter-cabin-bed-scene.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-win-013-mockup.jpg?v=5',
-    badge: 'Seasonal Collection'
+    image: 'images/winter-cabin-bed-scene.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-win-013-snowman-pillow.jpg?v=6',
+    badge: 'Seasonal Decor'
   },
   {
     id: 'b4',
@@ -173,36 +173,36 @@ const productsData = [
     defaultFormat: 'PIL',
     description: 'Custom flanged cotton-linen pillowcase featuring Annika’s songbird family and summer meadow flora design.',
     verse: 'Rest your head in stillness and awaken with a grateful heart.',
-    image: 'images/cottage-meadow-pillowcase.jpg?v=5',
-    mockupImage: 'images/vintage-bird-family.jpg?v=5',
+    image: 'images/cottage-meadow-pillowcase.jpg?v=6',
+    mockupImage: 'images/vintage-bird-family.jpg?v=6',
     badge: 'Handmade'
   },
   {
     id: 't1',
     sku: 'QPL-ORIG-T1',
     category: 'tabletop',
-    title: 'Songbird Family Heirloom Meadow Art & Decor Suite',
+    title: 'Two Friends Morning Tea by Curtained Window Print',
     categoryName: 'Tabletop & Landscapes',
     price: '$32.00',
     defaultFormat: 'PRT',
-    description: 'Heirloom songbird family watercolor in a sunlit wildflower meadow, ready to order as framed tabletop art, throw pillows, mugs, or woven linens.',
+    description: 'Warm watercolor illustration of two friends sharing quiet morning tea at a sunlit wooden table beside a curtained window.',
     verse: 'A joyful home is built of quiet moments, loving hands, and grateful hearts.',
-    image: 'images/vintage-bird-family.jpg?v=5',
-    mockupImage: 'images/songbird-linen-bedding.jpg?v=5',
+    image: 'images/catalog/qpl-mor-002-friends.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-mor-002-art.jpg?v=6',
     badge: 'Signature Piece'
   },
   {
     id: 't2',
     sku: 'QPL-ORIG-T2',
     category: 'tabletop',
-    title: 'Storybook Cottage Cabin Quilted Coverlet & Pillow',
+    title: 'Storybook Winter Cabin Children & Snowman Pillow Suite',
     categoryName: 'Tabletop & Landscapes',
     price: '$72.00',
-    defaultFormat: 'BLK',
-    description: 'Heirloom woven coverlet and textured pillow suite with rich forest tones, storybook woodland cabin imagery, and cozy comfort.',
+    defaultFormat: 'PIL',
+    description: 'Heirloom woven pillow and coverlet suite with rich forest tones, joyful children building a snowman, and a cozy woodland cabin.',
     verse: 'A place of warmth, quiet shelter, and gentle hospitality.',
-    image: 'images/catalog/qpl-win-013-mockup.jpg?v=5',
-    mockupImage: 'images/woodland-cottage-bed-scene.jpg?v=5',
+    image: 'images/catalog/qpl-win-013-children-pillow.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-win-013-mockup.jpg?v=6',
     badge: 'Heirloom Quilt'
   },
   {
@@ -215,9 +215,9 @@ const productsData = [
     defaultFormat: 'PRT',
     description: 'Whimsical watercolor painting of a loving songbird family in a summer wildflower meadow. Available on paper, canvas, pillow, or digital.',
     verse: 'A joyful home is built of quiet moments, loving hands, and grateful hearts.',
-    image: 'images/vintage-bird-family.jpg?v=5',
-    mockupImage: 'images/cottage-meadow-pillowcase.jpg?v=5',
-    badge: 'Archival Art'
+    image: 'images/vintage-bird-family.jpg?v=6',
+    mockupImage: 'images/songbird-linen-bedding.jpg?v=6',
+    badge: 'Original Art'
   },
   {
     id: 'd1',
@@ -228,23 +228,23 @@ const productsData = [
     price: '$14.00',
     defaultFormat: 'DIG',
     description: 'Instant download high-resolution print files for Annika’s morning coffee blessings, affirmation cards, and cut guides for standard framing.',
-    verse: 'Instant access. Print at home on your favorite linen or cotton cardstock.',
-    image: 'images/catalog/qpl-mor-003-framed.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-mor-003-art.jpg?v=5',
+    verse: 'Make your days here be restful, your nights full of peace, and the warmth in your cup makes all hurry cease.',
+    image: 'images/catalog/qpl-mor-003-framed.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-mor-003-art.jpg?v=6',
     badge: 'Instant Download'
   },
   {
     id: 'd2',
     sku: 'QPL-ORIG-D2',
     category: 'digital',
-    title: 'Heirloom Storybook Home Printable Art Collection',
+    title: 'Autumn Chalkboard & Deckled Verse Printable Collection',
     categoryName: 'Digital Studio',
     price: '$12.00',
     defaultFormat: 'DIG',
-    description: 'Printable storybook cottage art, place cards, and daily verses with delicate heirloom border designs ready for framing.',
-    verse: 'Download instantly and create a tranquil sanctuary in minutes.',
-    image: 'images/catalog/qpl-win-013-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-win-013-mockup.jpg?v=5',
+    description: 'Printable morning coffee & tea blessing signs and deckled-edge affirmation cards ready for framing on your coffee bar or kitchen nook.',
+    verse: 'May your mug stay full, your spirit feel light, and everything about your stay turn out just right.',
+    image: 'images/catalog/qpl-mor-003-chalkboard.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-mor-003-nook-card.jpg?v=6',
     badge: 'Printable PDF'
   },
 
@@ -259,9 +259,9 @@ const productsData = [
     defaultFormat: 'PIL',
     description: 'An heirloom folk-art evergreen Christmas tree adorned with warm glowing ornaments nestled against snowy mountain peaks. Order as an instant digital print, throw pillow, framed wall art, canvas, blanket, or mug.',
     verse: 'Warm fires, kind hands, and peace to this cherished home.',
-    image: 'images/catalog/qpl-win-001-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-win-001-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-001.jpg?v=5',
+    image: 'images/catalog/qpl-win-001-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-win-001-mockup.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-001.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -274,9 +274,9 @@ const productsData = [
     defaultFormat: 'PIL',
     description: 'A vibrant red cardinal perched beside a warm glowing brass lantern surrounded by holly berries, snowy pines, and swirling winter wind.',
     verse: 'Even in the quiet of winter, light and song remain.',
-    image: 'images/catalog/qpl-win-002-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-win-002-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-002.jpg?v=5',
+    image: 'images/catalog/qpl-win-002-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-win-002-mockup.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-002.jpg?v=6',
     badge: 'Best Seller Suite'
   },
   {
@@ -289,9 +289,9 @@ const productsData = [
     defaultFormat: 'FRM',
     description: 'A serene snowy European canal village with half-timbered houses, festive holiday wreaths on glowing streetlamps, a stone arch bridge, and wooden canal boats.',
     verse: 'Peace be to every threshold, and stillness upon the waters.',
-    image: 'images/catalog/qpl-win-003-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-win-003-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-003.jpg?v=5',
+    image: 'images/catalog/qpl-win-003-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-win-003-mockup.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-003.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -301,12 +301,12 @@ const productsData = [
     title: 'Moonlit Nordic Harbor Sailboat & Snowy Village',
     categoryName: 'Winter & Holiday Sanctuary',
     price: '$7.50 – $88.00',
-    defaultFormat: 'FRM',
+    defaultFormat: 'BLK',
     description: 'A tranquil moonlit winter harbor where a wooden sailboat with a glowing holiday tree drifts past snow-covered waterside cottages.',
     verse: 'Guided by quiet stars into a peaceful harbor.',
-    image: 'images/catalog/qpl-win-004-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-win-004-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-004.jpg?v=5',
+    image: 'images/catalog/qpl-win-004-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-win-004-mockup.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-004.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -319,9 +319,9 @@ const productsData = [
     defaultFormat: 'BLK',
     description: 'Warm terracotta and ochre harborside cottages reflecting in calm emerald waters beside wooden sailboats carrying festive evergreen trees.',
     verse: 'Every journey finds its rest in a warm and welcoming port.',
-    image: 'images/catalog/qpl-win-005-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-win-005-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-005.jpg?v=5',
+    image: 'images/catalog/qpl-win-005-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-win-005-mockup.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-005.jpg?v=6',
     badge: 'Bedding & Prints'
   },
   {
@@ -334,9 +334,9 @@ const productsData = [
     defaultFormat: 'PRT',
     description: 'A circular harbor cove encircled by snow-dusted gabled cottages and gentle sailboats gliding over mirror-still winter water.',
     verse: 'Still waters and safe shelter for the unhurried heart.',
-    image: 'images/catalog/qpl-win-006-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-win-006-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-006.jpg?v=5',
+    image: 'images/catalog/qpl-win-006-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-win-006-mockup.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-006.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -349,8 +349,8 @@ const productsData = [
     defaultFormat: 'CAN',
     description: 'An heirloom wooden Nordic ship sailing across a snow-rimmed blue fjord beneath swirling winter skies and northern lights.',
     verse: 'Steadfast through the deep waters, guided by ancient light.',
-    image: 'images/catalog/qpl-win-007-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-007.jpg?v=5',
+    image: 'images/catalog/qpl-win-007-art.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-007.jpg?v=6',
     badge: 'Nordic Heritage'
   },
   {
@@ -363,8 +363,8 @@ const productsData = [
     defaultFormat: 'CAN',
     description: 'Warmly lit timber log cabins with curling chimney smoke, wooden fences, and snow-laden evergreen pines under a twilight winter sky.',
     verse: 'Inside, the hearth is warm; outside, the world is still.',
-    image: 'images/catalog/qpl-win-008-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-008.jpg?v=5',
+    image: 'images/catalog/qpl-win-008-art.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-008.jpg?v=6',
     badge: 'Cabin Sanctuary'
   },
   {
@@ -377,8 +377,8 @@ const productsData = [
     defaultFormat: 'FRM',
     description: 'A picturesque Old World village street in winter with glowing windows, decorated outdoor Christmas trees, and red-bow evergreen wreaths.',
     verse: 'May every window glow with warmth and welcome.',
-    image: 'images/catalog/qpl-win-009-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-009.jpg?v=5',
+    image: 'images/catalog/qpl-win-009-art.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-009.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -391,8 +391,8 @@ const productsData = [
     defaultFormat: 'PRT',
     description: 'Two sweet little dogs meeting on a snow-dusted cobblestone lane lit by warm golden lanterns and festive holiday garlands.',
     verse: 'Faithful companions and warm lanterns along the quiet way.',
-    image: 'images/catalog/qpl-win-010-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-010.jpg?v=5',
+    image: 'images/catalog/qpl-win-010-art.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-010.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -405,8 +405,8 @@ const productsData = [
     defaultFormat: 'FRM',
     description: 'A nostalgic vintage car carrying a fresh evergreen tree parked beside a welcoming country porch visited by winter songbirds, squirrels, and a cozy black cat.',
     verse: 'Coming home through the quiet snow to the ones we love.',
-    image: 'images/catalog/qpl-win-011-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-011.jpg?v=5',
+    image: 'images/catalog/qpl-win-011-art.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-011.jpg?v=6',
     badge: 'Country Holiday'
   },
   {
@@ -419,8 +419,8 @@ const productsData = [
     defaultFormat: 'PRT',
     description: 'A gathering of cheerful winter robins, cardinals, and songbirds perched among crimson winter berries against a tranquil snowy forest.',
     verse: 'Every small bird is remembered in the quiet of the woods.',
-    image: 'images/catalog/qpl-win-012-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-012.jpg?v=5',
+    image: 'images/catalog/qpl-win-012-art.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-012.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -433,9 +433,9 @@ const productsData = [
     defaultFormat: 'PIL',
     description: 'A whimsical storybook cottage beneath a crescent moon with gentle woodland bunnies and joyful watercolor snowmen wrapped in cozy scarves.',
     verse: 'A joyful home is built of wonder, warmth, and gentle hearts.',
-    image: 'images/catalog/qpl-win-013-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-win-013-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-WIN-013.jpg?v=5',
+    image: 'images/catalog/qpl-win-013-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-win-013-mockup.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-WIN-013.jpg?v=6',
     badge: 'Pillow & Bedding Hit'
   },
   {
@@ -448,9 +448,9 @@ const productsData = [
     defaultFormat: 'PIL',
     description: 'A radiant golden sunflower in full bloom surrounded by autumn oak and maple leaves with a weathered red country barn in the soft distance.',
     verse: 'Turn gently toward the light and let the season ripen in grace.',
-    image: 'images/catalog/qpl-aut-001-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-aut-001-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-AUT-001.jpg?v=5',
+    image: 'images/catalog/qpl-aut-001-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-aut-001-mockup.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-AUT-001.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -463,9 +463,9 @@ const productsData = [
     defaultFormat: 'PRT',
     description: 'A delicate botanical study of sunlit yellow sunflowers, sage green leaves, and wild meadow grasses painted in airy washes.',
     verse: 'In quiet soil, beauty takes root without hurry.',
-    image: 'images/catalog/qpl-aut-002-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-aut-002-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-AUT-002.jpg?v=5',
+    image: 'images/catalog/qpl-aut-002-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-aut-002-mockup.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-AUT-002.jpg?v=6',
     badge: 'Botanical Study'
   },
   {
@@ -478,8 +478,8 @@ const productsData = [
     defaultFormat: 'PRT',
     description: 'A peaceful cat curled inside a woven wicker basket on a sunlit windowsill surrounded by mini harvest pumpkins and golden autumn leaves.',
     verse: 'Rest deeply in the warmth of a quiet afternoon.',
-    image: 'images/catalog/qpl-aut-003-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-AUT-003.jpg?v=5',
+    image: 'images/catalog/qpl-aut-003-art.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-AUT-003.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -492,8 +492,8 @@ const productsData = [
     defaultFormat: 'PRT',
     description: 'A gentle tabby cat resting by a frosted winter window with a vintage glass bauble, holly sprigs, and tied cinnamon sticks.',
     verse: 'Quiet purrs and twinkling lights make a house a sanctuary.',
-    image: 'images/catalog/qpl-pet-001-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-PET-001.jpg?v=5',
+    image: 'images/catalog/qpl-pet-001-art.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-PET-001.jpg?v=6',
     badge: 'Cat Lover Favorite'
   },
   {
@@ -506,8 +506,8 @@ const productsData = [
     defaultFormat: 'FRM',
     description: 'Contented tabby cats lounging on a weathered wooden garden bench surrounded by gentle snowfalls or lush cottage greenery.',
     verse: 'Pause awhile in the garden; there is nowhere else you need to be.',
-    image: 'images/catalog/qpl-pet-002-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-PET-002.jpg?v=5',
+    image: 'images/catalog/qpl-pet-002-art.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-PET-002.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -520,8 +520,8 @@ const productsData = [
     defaultFormat: 'PRT',
     description: 'Beloved household cats curled in peaceful slumber on soft linen quilts, red flannel blankets, and sunlit country kitchen floors.',
     verse: 'Let the quiet rhythm of a peaceful home restore your spirit.',
-    image: 'images/catalog/qpl-pet-003-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-PET-003.jpg?v=5',
+    image: 'images/catalog/qpl-pet-003-art.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-PET-003.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -534,23 +534,24 @@ const productsData = [
     defaultFormat: 'FRM',
     description: 'Faithful terrier and retriever dogs napping together on soft blankets, exploring wildflower meadows, and wading in golden sunset lakes.',
     verse: 'Joy is found in muddy paws, warm blankets, and loyal hearts.',
-    image: 'images/catalog/qpl-pet-004-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-PET-004.jpg?v=5',
+    image: 'images/catalog/qpl-pet-004-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-pet-004-lake.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-PET-004.jpg?v=6',
     badge: 'Dog Lover Gift'
   },
   {
     id: 'QPL-MOR-001',
     sku: 'QPL-MOR-001',
     category: 'morning',
-    title: 'Terracotta Teapot & Steaming Cups by Arch Window',
+    title: 'Morning Tea Muse & Flowing Botanical Hair Watercolor',
     categoryName: 'Morning Rituals & Tea',
     price: '$7.50 – $88.00',
-    defaultFormat: 'PIL',
-    description: 'An artisan terracotta teapot pouring warm fragrant tea into stoneware cups beside a curtained arch window framed by sage and autumn leaves.',
+    defaultFormat: 'PRT',
+    description: 'Whimsical watercolor illustration of a peaceful woman holding steaming morning teacups with flowing botanical hair braided with sage and autumn leaves.',
     verse: 'Breathe in grace, step gently into the morning.',
-    image: 'images/catalog/qpl-mor-001-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-mor-001-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-MOR-001.jpg?v=5',
+    image: 'images/catalog/qpl-mor-001-muse.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-mor-001-sofa.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-MOR-001.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -561,10 +562,11 @@ const productsData = [
     categoryName: 'Morning Rituals & Tea',
     price: '$7.50 – $88.00',
     defaultFormat: 'PRT',
-    description: 'A warm wooden table with two woven chairs set beside a sunlit curtained window with fresh greenery and steaming cups of morning tea.',
+    description: 'A warm wooden cafe table with two chairs set beside a sunlit curtained window with fresh greenery and steaming cups of morning tea.',
     verse: 'May this table hold laughter, warm cups, and quiet peace.',
-    image: 'images/catalog/qpl-mor-002-art.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-MOR-002.jpg?v=5',
+    image: 'images/catalog/qpl-mor-002-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-mor-002-friends.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-MOR-002.jpg?v=6',
     badge: '7 Formats Available'
   },
   {
@@ -577,9 +579,9 @@ const productsData = [
     defaultFormat: 'DIG',
     description: 'Hand-lettered serif morning blessings and botanical line-art wreaths formatted for deckled-edge cotton paper and kitchen coffee bars.',
     verse: 'May the kettle boil greatly, your coffee brew deep, and the calm of the morning be a blessing to keep.',
-    image: 'images/catalog/qpl-mor-003-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-mor-003-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-MOR-003.jpg?v=5',
+    image: 'images/catalog/qpl-mor-003-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-mor-003-mockup.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-MOR-003.jpg?v=6',
     badge: 'Coffee Bar Favorite'
   },
   {
@@ -592,14 +594,13 @@ const productsData = [
     defaultFormat: 'FRM',
     description: 'A tranquil winding river meadow with graceful marsh birds, cattails, and soft sage hilltops painted in soothing earth tones.',
     verse: 'Beside quiet waters, the hurried mind finds rest.',
-    image: 'images/catalog/qpl-lnd-001-art.jpg?v=5',
-    mockupImage: 'images/catalog/qpl-lnd-001-mockup.jpg?v=5',
-    pinImage: 'pins/PIN_QPL-LND-001.jpg?v=5',
+    image: 'images/catalog/qpl-lnd-001-art.jpg?v=6',
+    mockupImage: 'images/catalog/qpl-lnd-001-mockup.jpg?v=6',
+    pinImage: 'pins/PIN_QPL-LND-001.jpg?v=6',
     badge: 'Gallery Wall Suite'
   }
 ];
 
-// Curated Affirmation Deck for interactive flipper
 const affirmationDeck = [
   {
     theme: 'Slow Morning',
