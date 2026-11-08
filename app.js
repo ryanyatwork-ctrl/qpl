@@ -643,7 +643,7 @@ function renderExpandedCatalog() {
 
   const newItems = productsData.slice(12);
   newItems.forEach(item => {
-    const displayImg = item.mockupImage || item.image;
+    const displayImg = item.image;
     const card = document.createElement('div');
     card.className = 'product-item product-card bg-cream-50 rounded-lg border border-linen overflow-hidden flex flex-col justify-between';
     card.setAttribute('data-category', item.category);
